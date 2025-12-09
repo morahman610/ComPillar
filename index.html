@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ComPillar - Professional web, mobile, and backend development services for your business">
+    <title>ComPillar | Web, Mobile & Backend Development</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h1>ComPillar</h1>
+            </div>
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#contact" class="nav-link btn-nav-cta">Free Consultation</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content glass-card">
+            <h2 class="hero-title">Building Your Digital Pillar</h2>
+            <p class="hero-subtitle">Expert web, mobile, and backend solutions tailored for your business growth</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary">Free Consultation</a>
+                <a href="#services" class="btn btn-secondary">View Services</a>
+            </div>
+        </div>
+        <div class="hero-background"></div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <p class="section-subtitle">Comprehensive development solutions for modern businesses</p>
+            
+            <div class="services-grid">
+                <!-- Web Development -->
+                <div class="service-card glass-card" data-aos="fade-up">
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="3" width="20" height="14" rx="2"/>
+                            <line x1="8" y1="21" x2="16" y2="21"/>
+                            <line x1="12" y1="17" x2="12" y2="21"/>
+                        </svg>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Custom websites and web applications built with modern frameworks like React, Vue, and Angular. Responsive, fast, and SEO-optimized.</p>
+                    <ul class="service-features">
+                        <li>Responsive Design</li>
+                        <li>Progressive Web Apps</li>
+                        <li>E-commerce Solutions</li>
+                        <li>CMS Integration</li>
+                    </ul>
+                </div>
+
+                <!-- Mobile Development -->
+                <div class="service-card glass-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="5" y="2" width="14" height="20" rx="2"/>
+                            <line x1="12" y1="18" x2="12" y2="18"/>
+                        </svg>
+                    </div>
+                    <h3>Mobile Development</h3>
+                    <p>Native and cross-platform mobile apps for iOS and Android. Built with React Native, Flutter, and Swift/Kotlin for optimal performance.</p>
+                    <ul class="service-features">
+                        <li>iOS & Android Apps</li>
+                        <li>Cross-Platform Development</li>
+                        <li>App Store Optimization</li>
+                        <li>Push Notifications</li>
+                    </ul>
+                </div>
+
+                <!-- Backend Development -->
+                <div class="service-card glass-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="2" width="20" height="8" rx="2"/>
+                            <rect x="2" y="14" width="20" height="8" rx="2"/>
+                            <line x1="6" y1="6" x2="6" y2="6"/>
+                            <line x1="6" y1="18" x2="6" y2="18"/>
+                        </svg>
+                    </div>
+                    <h3>Backend Development</h3>
+                    <p>Scalable server-side solutions with Node.js, Python, Java, and .NET. RESTful APIs, microservices, and cloud infrastructure.</p>
+                    <ul class="service-features">
+                        <li>RESTful & GraphQL APIs</li>
+                        <li>Database Design</li>
+                        <li>Cloud Deployment</li>
+                        <li>Microservices Architecture</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <h2 class="section-title">Our Work</h2>
+            <p class="section-subtitle">Featured project showcasing our expertise</p>
+            
+            <div class="portfolio-single-container">
+                <div class="portfolio-item-single glass-card" data-aos="zoom-in">
+                    <div class="portfolio-image-single">
+                        <img src="https://images.unsplash.com/photo-1591337676887-a217a6970a8a?w=800&h=600&fit=crop" alt="Muslim Mindfulness App" loading="lazy">
+                    </div>
+                    <div class="portfolio-content-single">
+                        <h3>Muslim Mindfulness App</h3>
+                        <p>A comprehensive mobile application designed to help Muslims integrate mindfulness practices with their faith. Features include guided meditations, prayer reminders, Quran reflections, and daily spiritual practices.</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">React Native</span>
+                            <span class="tag">Firebase</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content glass-card" data-aos="fade-right">
+                <h2 class="section-title">About ComPillar</h2>
+                <p>ComPillar specializes in creating innovative digital solutions that drive business growth. With deep expertise across web, mobile, and backend technologies, we transform ideas into powerful, scalable applications tailored to your unique needs.</p>
+                
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <h3 class="stat-number">5+</h3>
+                        <p class="stat-label">Years Experience</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3 class="stat-number">12+</h3>
+                        <p class="stat-label">Technologies</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3 class="stat-number">Clean</h3>
+                        <p class="stat-label">Code Quality</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3 class="stat-number">Mobile</h3>
+                        <p class="stat-label">First Design</p>
+                    </div>
+                </div>
+
+                <div class="tech-stack">
+                    <h3>Technologies We Use</h3>
+                    <div class="tech-tags">
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">React Native</span>
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">TypeScript</span>
+                        <span class="tech-tag">Firebase</span>
+                        <span class="tech-tag">AWS</span>
+                        <span class="tech-tag">MongoDB</span>
+                        <span class="tech-tag">PostgreSQL</span>
+                        <span class="tech-tag">Docker</span>
+                        <span class="tech-tag">Git</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Let's discuss your next project</p>
+            
+            <div class="contact-content">
+                <form class="contact-form glass-card" id="contact-form" data-aos="fade-up">
+                    <input type="hidden" name="access_key" value="231b517e-7ee5-45b7-9ba5-ba40e362be82">
+                    <input type="hidden" name="subject" value="New Contact Form Submission - ComPillar">
+                    <input type="hidden" name="from_name" value="ComPillar Website">
+                    
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required placeholder="Your name">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="service">Service Interested In</label>
+                        <select id="service" name="service" required>
+                            <option value="">Select a service</option>
+                            <option value="web">Web Development</option>
+                            <option value="mobile">Mobile Development</option>
+                            <option value="backend">Backend Development</option>
+                            <option value="fullstack">Full Stack Solution</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required placeholder="Tell us about your project..."></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary btn-submit">Send Message</button>
+                    <div class="form-message" id="form-message"></div>
+                </form>
+
+                <div class="contact-info glass-card" data-aos="fade-up" data-aos-delay="100">
+                    <h3>Contact Information</h3>
+                    
+                    <div class="info-item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                            <polyline points="22,6 12,13 2,6"/>
+                        </svg>
+                        <div>
+                            <h4>Email</h4>
+                            <p>mo.rahman610@gmail.com</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                        </svg>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>(313) 241-7031</p>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>ComPillar</h3>
+                    <p>Building digital excellence, one project at a time.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-services">
+                    <h4>Services</h4>
+                    <ul>
+                        <li>Web Development</li>
+                        <li>Mobile Development</li>
+                        <li>Backend Development</li>
+                        <li>Cloud Solutions</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 ComPillar. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
